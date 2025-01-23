@@ -62,7 +62,7 @@ font-size: 70px;
 }
 
 .image-area img{
-width: 100%;
+max-width: 100%;
 height: 500px;
 }
 
