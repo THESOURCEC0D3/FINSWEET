@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header-container{
+    display: flex;
+    justify-content:space-between;
+    background-color: brown;
+    height: 80px;
+    align-items: center;
+}
+
+.logo{
+    background-color: aqua;
+    border-radius: 10px;
+    height: 40px;
+    margin-left:70px ;
+    padding: 5px;
+}
+
+img{
+    display: flex;
+    align-content: center;
+}
+
+.nav-links{
+    display:flex;
+    gap: 1rem;
+    margin-right: 70px;
+}
+
+.assistance{
+    display:flex;
+    border-left: 3px solid cyan;
+}
