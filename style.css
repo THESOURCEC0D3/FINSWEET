@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+body{
+    max-height: 100vh;
+}
+
 .header-container{
     display: flex;
     justify-content:space-between;
     background-color: brown;
     height: 80px;
     align-items: center;
+
 }
 
 .logo{
@@ -20,18 +25,51 @@
     padding: 5px;
 }
 
-img{
-    display: flex;
-    align-content: center;
+.nav{
+    border-right: 2px solid cyan;
 }
+
 
 .nav-links{
     display:flex;
+    justify-content:space-around;
     gap: 1rem;
     margin-right: 70px;
+    align-items: center;
 }
 
 .assistance{
     display:flex;
-    border-left: 3px solid cyan;
 }
+
+.hero-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.text-area{
+max-width: 45%;
+}
+
+.text-area h1{
+font-size: 70px;
+}
+
+.image-area{
+    max-width: 55%;
+}
+
+.image-area img{
+width: 100%;
+height: 500px;
+}
+
+button{
+    background-color: blue;
+    border-radius: 5px;
+    padding: 8px;
+    width: 130px;
+}
+
