@@ -5,7 +5,12 @@
 }
 
 body{
-    max-height: 100vh;
+    min-height: 100vh;
+}
+
+header,
+main{
+    width: 100%;
 }
 
 .header-container{
@@ -14,7 +19,6 @@ body{
     background-color: brown;
     height: 80px;
     align-items: center;
-
 }
 
 .logo{
