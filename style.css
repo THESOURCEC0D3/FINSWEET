@@ -394,5 +394,7 @@ font-size: xx-large;
 }
  
 
-footer{}
+footer{
+ background-color: black;
+}
 
