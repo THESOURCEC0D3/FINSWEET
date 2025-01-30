@@ -30,7 +30,7 @@ footer{
 }
 
 header{
-    background-color: rgb(29, 24, 24);
+    background-color: rgb(29, 24, 24)
 }
 
 .card-container{
@@ -112,10 +112,11 @@ font-size: 70px;
 .image-area{
     max-width: 55%;
 }
-.image-area img{
+.image-area img {
 max-width: 100%;
 height: 500px;
 }
+
 
 button{
     background-color: rgb(185, 39, 29);
@@ -461,5 +462,21 @@ span{
     color: white;
 }
  
+/*mobile view*/
+
+@media (max-width: 420px) {
+    .card-container{
+        width: 90%;
+        padding-block: 10px;
+    }
+
+    header{
+        background-color:cyan ;
+    }
+
+    .header-nav-contact{
+        display: none;
+    }
+}
 
 
