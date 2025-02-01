@@ -45,7 +45,7 @@ header{
     gap: 1rem;
     padding-block: 1rem;
     align-items: center;
-    color: rgb(185, 39, 29);
+    background-color: rgb(29, 24, 24);
     font-size: 20px;
 }
 
@@ -79,6 +79,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: rgb(185, 39, 29);
 }
 
 .hero-section{
@@ -100,14 +101,15 @@ gap:0.5rem;
     align-items: center;
 }
 
+.text-area h1{
+    font-size: 70px;
+    }
+
 .text-area img{
-height: 50px;
-width: 50px;
+height: 40px;
+width: 40px;
 }
 
-.text-area h1{
-font-size: 70px;
-}
 
 .image-area{
     max-width: 55%;
@@ -313,7 +315,7 @@ font-size: xx-large;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .exp h2{
@@ -466,17 +468,199 @@ span{
 
 @media (max-width: 420px) {
     .card-container{
-        width: 90%;
+        width: 100%;
         padding-block: 10px;
+        max-width: 90%;
     }
 
     header{
-        background-color:cyan ;
+        background-color: rgb(29, 24, 24)
+    }
+
+    .finsweet-logo{
+        scale: 1.2;
+        color: rgb(185, 39, 29);
     }
 
     .header-nav-contact{
         display: none;
     }
+
+    .image-area{
+        display: none;
+    }
+
+    .hero-section{
+        background-image: url('./IMAGES/Header-Image.png');
+        background-size: cover;
+        background-position: center;
+        color: rgb(0, 255, 242);
+    }
+
+    .text-area{
+        max-width: 45%;
+        display:flex;
+        flex-direction:column;
+        gap: 0.5rem;
+        }
+
+    .text-area h1{
+        font-size: 55px;
+        } 
+        
+    .text-area p{
+        font-size: 16.5px;
+    }    
+
+    button{
+        background-color: rgb(185, 39, 29);
+            border-radius: 5px;
+            padding: 10px;
+            width: 130px;
+        }
+        
+        .section2{
+            display:block;
+            text-align: center;
+            width: 100%;
+            gap: 2rem;
+            margin-top: 5rem;
+        }
+
+        .section2 .description{
+            width:100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 1.5rem;
+            } 
+        
+        .section2 .form-section{
+            width:100%;
+        }
+
+        .section2 button{
+            align-self: center;
+        }
+
+        .section3{
+            display: block;
+            gap: 1rem;
+            margin-top: 5rem;
+            font-size: 20px;
+        }
+
+        .process{
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            gap: 1rem;
+            width: 100%;
+        }
+
+        .process-steps{
+            width: 100%;
+            margin: 3rem auto;
+            position: relative;
+        }
+
+        .process-steps{
+            width: 100%;
+            position: relative;
+        }
+
+        li img{
+            width:2rem;
+            height:100%;
+        }
+
+        .line{
+            position: absolute;
+            left: 1rem;
+            height: 70px;
+            width: 2px
+            }
+            
+            .line1{
+                top: 18rem;
+            }
+            
+            .line2{
+            top: 5rem;
+            }
+            
+            
+
+        .section3 button{
+            align-self: center;
+        }
+
+    .service-container1{
+        display:flex;
+        justify-content: center;
+        gap: 0.1rem;
+        margin-top: 1rem;
+    }
+
+    .service1{
+        background-color: rgb(185, 39, 29);
+        border-radius: 10px;
+        width: 10rem;
+        padding: 0.6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .service-container2{
+        display: flex;
+        justify-content: center;
+        gap:0.1rem;
+        margin-top:1rem;
+    }
+
+    .service2{
+        background-color: rgb(185, 39, 29);
+        border-radius: 10px;
+        width:10rem;
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .section6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    .exp h2{
+        color: rgb(185, 39, 29);
+        font-size:xx-large; 
+    }
+    
+    .exp p{
+        font-size: 1rem;
+    }
+
+    .section7 img{
+        scale: 1.05;
+    }
+
+    .section10{
+        display: flex;
+        justify-content:space-between;
+        color: rgb(185, 39, 29);
+    }
+
+   
+
 }
 
 
