@@ -670,7 +670,7 @@ span{
     /*Tablet view*/
     @media (min-width: 431px) and (max-width: 1000px){
         .card-container{
-            max-width:95%;
+            max-width:90%;
             margin: auto;
         }
 
